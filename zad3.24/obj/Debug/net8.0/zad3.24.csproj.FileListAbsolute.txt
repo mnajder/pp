@@ -1,0 +1,14 @@
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\bin\Debug\net8.0\zad3.24.exe
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\bin\Debug\net8.0\zad3.24.deps.json
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\bin\Debug\net8.0\zad3.24.runtimeconfig.json
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\bin\Debug\net8.0\zad3.24.dll
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\bin\Debug\net8.0\zad3.24.pdb
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.AssemblyInfoInputs.cache
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.AssemblyInfo.cs
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.csproj.CoreCompileInputs.cache
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.dll
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\refint\zad3.24.dll
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.pdb
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\zad3.24.genruntimeconfig.cache
+C:\Users\mateo\RiderProjects\podstawy\zad3.24\obj\Debug\net8.0\ref\zad3.24.dll
