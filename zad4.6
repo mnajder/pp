@@ -1,0 +1,30 @@
+using System;
+
+public class HelloWorld
+{
+    public struct Nazwa // Struktura powinna być na zewnątrz metody Main
+    {
+        public string imie;
+        public string nazwisko;
+
+        // Konstruktor dla struktury Punkt
+        public Nazwa(string i, string n)
+        {
+            this.imie = i;
+            this.nazwisko = n;
+        }
+    }
+
+    public static void Main(string[] args)
+    {
+        string a, b;
+        Console.Write("Wprowadz imie: ");
+        a = Console.ReadLine();
+        
+        Console.Write("Wprowadz nazwisko: ");
+        b = Console.ReadLine();
+        
+        Nazwa n1 = new Nazwa(a, b); // Używamy konstruktora
+        Console.WriteLine($"Witaj, {n1.imie} {n1.nazwisko}.");
+    }
+}
