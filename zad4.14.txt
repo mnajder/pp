@@ -1,0 +1,23 @@
+using System;
+
+public class HelloWorld
+{
+    public static unsafe void Main(string[] args)
+    {
+        int[] tab = { 10, 20, 30, 40, 50 }; // Tablica z liczbami całkowitymi
+        int suma = 0;
+
+        // Uzyskanie wskaźnika do pierwszego elementu tablicy
+        fixed (int* ptr = tab)
+        {
+            // Obliczanie sumy elementów tablicy za pomocą wskaźników
+            for (int i = 0; i < tab.Length; i++)
+            {
+                suma += *(ptr + i); // Dodawanie wartości z wskaźnika
+            }
+        }
+        
+        // Wyświetlenie wyniku
+        Console.WriteLine($"Suma elementów tablicy wynosi: {suma}");
+    }
+}

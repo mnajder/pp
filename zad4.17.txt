@@ -1,0 +1,19 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int szerokosc = 5;
+        int wysokosc = 3;
+
+        for (int i = 0; i < wysokosc; i++)
+        {
+            for (int j = 0; j < szerokosc; j++)
+            {
+                Console.Write("*");
+            }
+            Console.WriteLine(); // Przechodzi do nowej linii po każdym wierszu
+        }
+    }
+}

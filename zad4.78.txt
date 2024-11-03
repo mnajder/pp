@@ -1,0 +1,30 @@
+using System;
+
+public class HelloWorld
+{
+    public struct Punkt // Struktura powinna być na zewnątrz metody Main
+    {
+        public int x;
+        public int y;
+
+        // Konstruktor dla struktury Punkt
+        public Punkt(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    public static void Main(string[] args)
+    {
+        int a, b;
+        Console.Write("Wprowadź 1. wartość punktu: ");
+        a = int.Parse(Console.ReadLine());
+        
+        Console.Write("Wprowadź 2. wartość punktu: ");
+        b = int.Parse(Console.ReadLine());
+        
+        Punkt p = new Punkt(a, b); // Używamy konstruktora
+        Console.WriteLine($"Punkt: ({p.x}, {p.y})");
+    }
+}

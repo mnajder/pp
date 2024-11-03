@@ -1,0 +1,26 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        
+        
+        int liczba = 50;
+        Console.WriteLine("Podaj liczbe:");
+        int n = int.Parse(Console.ReadLine());
+        double odp;
+        try{
+            odp = liczba/n;
+            
+            Console.WriteLine($"{odp} jest odpowiedzia dzielenia {liczba} przez {n}");
+        }catch(DivideByZeroException){
+            Console.WriteLine("Attempted divide by zero.");
+        }
+        
+        
+    }
+}
