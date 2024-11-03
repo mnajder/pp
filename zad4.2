@@ -1,0 +1,16 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        // Używamy klamer zamiast nawiasów kwadratowych do inicjalizacji tablicy
+        int[] tab = new int[] { 1, 2, 3, 4, 5 };
+        
+        // Indeksy w tablicy zaczynają się od 0, więc pętla powinna biec od 0 do 4
+        for (int i = 0; i < tab.Length; i++)
+        {
+            Console.WriteLine(tab[i]);
+        }
+    }
+}
